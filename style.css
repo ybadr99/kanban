@@ -39,7 +39,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.2rem;
-  height: calc(100vh - 24rem);
+  height: calc(100vh - 26rem);
 }
 
 .title {
@@ -78,6 +78,7 @@ h1 {
   border-radius: 10px;
   padding: 2.4rem;
   height: 100%;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 .task {
