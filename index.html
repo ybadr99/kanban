@@ -4,9 +4,65 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <title>kanban</title>
   </head>
   <body>
-    <h1>Welcome to Kanban Board</h1>
+    <h1>Welcome to kanban</h1>
+    <main class="container">
+      <section class="card">
+        <h3>
+          <span class="title">todo</span>
+        </h3>
+
+        <button class="add-btn">+</button>
+
+        <div class="task-card">
+          <div class="task">
+            <h3>Task 2</h3>
+          </div>
+
+          <div class="task --task-color-1">
+            <h3>Finish the day2</h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h3>
+          <span class="title --inprogress">IN PROGRESS</span>
+        </h3>
+
+        <button class="add-btn">+</button>
+
+        <div class="task-card">
+          <div class="task --task-color-1">
+            <h3>Task 2</h3>
+          </div>
+
+          <div class="task --task-color-2">
+            <h3>Finish the day2</h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h3>
+          <span class="title --completed">COMPLETED</span>
+        </h3>
+
+        <button class="add-btn">+</button>
+
+        <div class="task-card">
+          <div class="task --task-color-2">
+            <h3>Task 2</h3>
+          </div>
+
+          <div class="task --task-color-1">
+            <h3>Finish the day2</h3>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
